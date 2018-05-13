@@ -1,3 +1,4 @@
+# !/usr/bin/expect
 git add .
 spawn git commit -m 'Updated.'
 spawn git push 
