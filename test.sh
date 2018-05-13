@@ -1,6 +1,6 @@
 git add .
 spawn git commit -m 'Updated.'
-git push 
+spawn git push 
 expect "Username"
 send "fire-sale"
 expect "Password"
