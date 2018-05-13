@@ -1,9 +1,10 @@
 #!/usr/bin/expect
-
+git add .
+git commit -m 'Updated.'
 spawn git push 
-expect "Username"
+expect "for"
 send "fire-sale\n"
-expect "Password"
+expect "for"
 send "tyzx8080\n"
 interact
 
