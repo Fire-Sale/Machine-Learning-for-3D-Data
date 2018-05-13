@@ -1,5 +1,8 @@
 git add .
-git commit -m 'Updated.'
+spawn git commit -m 'Updated.'
 git push 
-echo 'fire-sale'
-echo 'tyzx8080'
+expect "Username"
+send "fire-sale"
+expect "Password"
+send "tyzx8080"
+
